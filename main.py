@@ -35,5 +35,7 @@ if not found :
         outfile =open ('md5_db.txt','a')
         print(md5_overall,file=outfile)
         outfile.close()
+#==== FOLDER control
 print(os.getcwd())
-print(glob.glob(os.getcwd()))
+print(glob.glob(os.getcwd()+"\\*"))
+slice = glob.glob(os.getcwd()+"\\*"
