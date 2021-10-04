@@ -36,3 +36,4 @@ if not found :
         print(md5_overall,file=outfile)
         outfile.close()
 print(os.getcwd())
+print(glob.glob(os.getcwd()))
