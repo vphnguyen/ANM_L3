@@ -3,6 +3,7 @@ import glob, os
 #==========================    INIT
 salt="salty_sonny"
 file_name = 'noidung.txt'
+
 #==========================    MD5 Filename
 original_md5 = '5d41402abc4b2a76b9719d911017c592'  
 hashed_filename = hashlib.md5(file_name.encode()).hexdigest()
@@ -37,5 +38,7 @@ if not found :
         outfile.close()
 #==== FOLDER control
 print(os.getcwd())
-print(glob.glob(os.getcwd()+"\\*"))
-slice = glob.glob(os.getcwd()+"\\*"
+print(glob.glob(os.getcwd()+"\\biggest_folder\\"))
+for root, dirs, files in os.walk(os.getcwd()+"\\biggest_folder\\"):
+    for file in files:
+        print(file)
