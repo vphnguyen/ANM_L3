@@ -1,2 +1,2 @@
-8f1637e1e07d63cfe46398b4696a700c
-103be7c31f5b4e64fe08bc73cb79db4c
+file|C:\Users\nguye\Source\Repos\ANM_L3\noidung.txt|d5c0df5848b8156b7fdefd75e7a2013c
+file|C:\Users\nguye\Source\Repos\ANM_L3\noidung2.txt|2a90fa825555f09b54da39c3059d0d35
